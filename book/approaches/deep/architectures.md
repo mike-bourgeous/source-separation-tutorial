@@ -173,7 +173,7 @@ Deep Clustering maps each TF bin to a high-dimensional
 embedding space such that TF bins dominated by the same source
 are close and those dominated by different sources are far apart.
 We say that a TF bin is _dominated_ by some Source $S_i$ if most
-of the energy in that source is from $S_i$.
+of the energy in that bin is from $S_i$.
 
 Deep Clustering has the same basic network architecture as a
 Mask Inference network: spectrogram input, to batch norm, to a
